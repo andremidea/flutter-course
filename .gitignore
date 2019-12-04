@@ -1,0 +1,27 @@
+/RUNNING_PID
+/logs/
+/project/*-shim.sbt
+/project/project/
+/project/target/
+/target/
+*.tgz
+.idea
+.ensime*
+.DS_Store
+/metastore_db
+*/target/*
+target/*
+/common-etl/project/project/
+/common-etl/project/target/
+# Directories for integration testing
+/metapod-test
+
+# unit testing byproduct
+derby.log
+*.iml
+__pycache__/
+.bloop
+.metals
+
+# Vim swap files
+*.swp
